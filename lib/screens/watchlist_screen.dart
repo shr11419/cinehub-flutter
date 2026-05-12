@@ -48,15 +48,14 @@ class WatchlistScreen extends StatelessWidget {
           : GridView.builder(
               padding: const EdgeInsets.all(16),
               gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-                crossAxisCount: 3,
+                crossAxisCount: 2,
                 crossAxisSpacing: 10,
                 mainAxisSpacing: 10,
-                childAspectRatio: 0.55,
+                childAspectRatio: 0.62,
               ),
               itemCount: watchlist.length,
               itemBuilder: (_, i) => MovieCard(
                 movie: watchlist[i],
-                width: double.infinity,
               ),
             ),
     );

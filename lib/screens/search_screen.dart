@@ -56,10 +56,10 @@ class _SearchScreenState extends State<SearchScreen> {
               : GridView.builder(
                   padding: const EdgeInsets.all(16),
                   gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-                    crossAxisCount: 3,
+                    crossAxisCount: 2,
                     crossAxisSpacing: 10,
                     mainAxisSpacing: 10,
-                    childAspectRatio: 0.55,
+                    childAspectRatio: 0.62,
                   ),
                   itemCount: results.length,
                   itemBuilder: (_, i) => MovieCard(
